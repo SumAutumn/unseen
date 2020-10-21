@@ -1,0 +1,59 @@
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.center {
+  text-align: center;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.container {
+  height: 1280px;
+  width: 800px;
+}
+
+.in_text_link {
+  color:white;
+  font-style: italic;
+  text-decoration: none;
+}
+
+body, h1, head {
+  font-family: "Arial";
+  opacity: 1;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  position: flex;
+  vertical-align: middle;
+}
+
+.bg {
+  background-color: black;
+  /* background-image: url(./background.JPG); */
+  /* background-size: 100% */
+  background-position: top;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.selected {
+  text-decoration: underline overline;
+}
